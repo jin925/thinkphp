@@ -1,0 +1,37 @@
+[
+	{
+		"id": "preferences",
+		"children":
+		[
+			{
+				"id": "package-settings",
+				"children":
+				[
+					{
+						"caption": "ThinkPHP",
+						"id": "thinkphp",
+						"children":
+						[						
+							{
+								"command": "open_file",
+								"args": {"file": "${packages}/Thinkphp/ThinkPHP.sublime-settings"},
+								"caption": "Settings – Default"
+							},
+							{ 
+								"command": "open_file",
+								"args": {"file": "${packages}/Thinkphp/php.sublime-completions"},
+								"caption": "Browse Compilation - php"
+							},
+							{
+								"command": "open_file",
+								"args": {"file": "${packages}/Thinkphp/tpl.sublime-completions"},
+								"caption": "Browse Compilation - tpl"
+							}						
+						]
+					}
+				]
+			}			
+		]
+	}
+]
+

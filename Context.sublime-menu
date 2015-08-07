@@ -1,0 +1,4 @@
+[
+    { "command": "query_database", "caption": "show_cloums" ,"args": {"cmd" :"show_cloum"}},
+    { "command": "goto_php_document", "caption": "goto_php_document" }
+]
